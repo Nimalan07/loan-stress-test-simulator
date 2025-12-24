@@ -1,0 +1,44 @@
+{
+  "baseline": {
+    "interest_rate_shock": 0.0,
+    "revenue_change_pct": 0.0,
+    "cost_change_pct": 0.0,
+    "description": "No economic stress. Current operating conditions."
+  },
+  "mild_stress": {
+    "interest_rate_shock": 0.5,
+    "revenue_change_pct": -5.0,
+    "cost_change_pct": 3.0,
+    "description": "Minor rate hike and slight revenue pressure."
+  },
+  "moderate_stress": {
+    "interest_rate_shock": 1.5,
+    "revenue_change_pct": -10.0,
+    "cost_change_pct": 6.0,
+    "description": "Economic slowdown with moderate cost inflation."
+  },
+  "severe_stress": {
+    "interest_rate_shock": 3.0,
+    "revenue_change_pct": -20.0,
+    "cost_change_pct": 10.0,
+    "description": "Recessionary conditions and aggressive rate tightening."
+  },
+  "rate_shock_only": {
+    "interest_rate_shock": 2.5,
+    "revenue_change_pct": 0.0,
+    "cost_change_pct": 0.0,
+    "description": "Sharp interest rate increase without revenue impact."
+  },
+  "revenue_shock_only": {
+    "interest_rate_shock": 0.0,
+    "revenue_change_pct": -25.0,
+    "cost_change_pct": 0.0,
+    "description": "Sudden drop in borrower revenue."
+  },
+  "cost_inflation": {
+    "interest_rate_shock": 0.0,
+    "revenue_change_pct": -5.0,
+    "cost_change_pct": 12.0,
+    "description": "Rising operational costs and margin compression."
+  }
+}
