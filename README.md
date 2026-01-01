@@ -76,7 +76,9 @@ Visualization: Plotly
 
 Logic: Rule-based financial analysis
 
-# 📁 Project Structure
+## 📁 Project Structure
+
+```text
 loan-stress-test-simulator/
 ├── app/
 │   ├── main.py
@@ -94,6 +96,8 @@ loan-stress-test-simulator/
 │   └── config.toml
 ├── requirements.txt
 └── README.md
+```
+
 
 # ▶️ How to Run Locally
 pip install -r requirements.txt
