@@ -81,11 +81,11 @@ Safe for demos – uses synthetic, representative data
 ```text
 loan-stress-test-simulator/
 ├── app/
-│   ├── MAIN.py
+│   ├── Main.py
 │   ├── pages/
-│   │   ├── LOAN_INPUT.py
-│   │   ├── SCENARIO_TEST.py
-│   │   └── RISK_DASHBOARD.py
+│   │   ├── 1_Loan_Input.py
+│   │   ├── 2_Scenerio_Test.py
+│   │   └── 3_Risk_Dashboard.py
 │   ├── services/
 |   |   ├── __init__.py
 │   │   ├── stress_engine.py
@@ -111,8 +111,7 @@ streamlit run app/main.py
 # 🌐 Live Demo
 
 👉 Deployed App:
-Add your Streamlit Cloud URL here
-
+https://loan-stress-test-simulator-1.streamlit.app/
 # 🔮 Future Enhancements
 
 Portfolio-level stress testing
