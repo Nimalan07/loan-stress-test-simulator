@@ -68,13 +68,13 @@ Safe for demos – uses synthetic, representative data
 
 # 🏗️ Tech Stack
 
-Frontend & App Framework: Streamlit
+- Frontend & App Framework: Streamlit
 
-Data Handling: Pandas
+- Data Handling: Pandas
 
-Visualization: Plotly
+- Visualization: Plotly
 
-Logic: Rule-based financial analysis
+- Logic: Rule-based financial analysis
 
 ## 📁 Project Structure
 
@@ -87,10 +87,14 @@ loan-stress-test-simulator/
 │   │   ├── SCENARIO_TEST.py
 │   │   └── RISK_DASHBOARD.py
 │   ├── services/
+|   |   ├── __init__.py
 │   │   ├── stress_engine.py
 │   │   ├── ratio_calculator.py
 │   │   └── risk_evaluator.py
 │   ├── utils/
+|   |   ├── __init__.py
+│   │   ├── constants.py
+│   │   └── validator.py
 │   └── data/
 |       └── scenarios.json
 ├── .streamlit/
