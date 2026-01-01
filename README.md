@@ -81,17 +81,18 @@ Logic: Rule-based financial analysis
 ```text
 loan-stress-test-simulator/
 ├── app/
-│   ├── main.py
+│   ├── MAIN.py
 │   ├── pages/
-│   │   ├── 1_LOAN_INPUT.py
-│   │   ├── 2_SCENARIO_TEST.py
-│   │   └── 3_RISK_DASHBOARD.py
+│   │   ├── LOAN_INPUT.py
+│   │   ├── SCENARIO_TEST.py
+│   │   └── RISK_DASHBOARD.py
 │   ├── services/
 │   │   ├── stress_engine.py
 │   │   ├── ratio_calculator.py
 │   │   └── risk_evaluator.py
 │   ├── utils/
 │   └── data/
+|       └── scenarios.json
 ├── .streamlit/
 │   └── config.toml
 ├── requirements.txt
